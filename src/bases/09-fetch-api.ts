@@ -8,4 +8,3 @@ fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`)
         console.log(body.data.images.downsized_medium.url);
     })
     .catch(err => console.warn(err));
-
